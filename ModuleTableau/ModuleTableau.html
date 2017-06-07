@@ -1,0 +1,73 @@
+<div>
+<section class="Module-Tableau-container">
+	
+
+  <article class="Module-Tableau-bar Module-Tableau-green">
+    <button class="Module-Tableau-bar-item Module-Tableau-button tablink Module-Tableau-activ" onclick="openCity(event,'FullStack JS')">FullStack JS</button>
+    <button class="Module-Tableau-bar-item Module-Tableau-button tablink" onclick="openCity(event,'PHP')">PHP</button>
+    <button class="Module-Tableau-bar-item Module-Tableau-button tablink" onclick="openCity(event,'Rubis')">Ruby</button>
+    <button class="Module-Tableau-bar-item Module-Tableau-button tablink" onclick="openCity(event,'Python')">Python</button>
+  </article>
+  
+  <article id="FullStack JS" class="Module-Tableau-container Module-Tableau-border city ">
+	<h2 class="ColorWhite"></h2>
+    	<ul>
+			<li class="hauteur"><span class="rose">des competences et des technologies</span><br><span class="gris">Cette formation est dédiée au développement « front-end »</span> (ce qu’on voit à l’écran, avec HTML, CSS, Javascript et ses différents frameworks comme Meteor, React, etc). Vous verrez tout de même un peu de développement « back-end » (les coulisses, les fonctionnalités), l’administration systèmes (sous Linux), la programmation d’objets connectés, la gestion de projet et la conception d’interfaces.</li>
+			<li class="hauteur"><span class="rose">des methodes</span><br>méthodologies agiles, pair programming, etc...</li>
+			<li class="hauteur"><span class="rose">des outils</span><br>Git, Github, Slack, Sublime text, etc...</li>
+			<li class="hauteur"><span class="rose">des ouvertures sur d’autres domaines</span><br>Sécurite, environnement, intelligence artificielle, consommation collaborative, entrepreneuriat, communication, marketing,… Autant de sujets qui pourront donner lieu à des interventions, sur votre demande notamment.</li>
+			<li class="hauteur"><span class="rose">à partir de novembre 2015</span><br>Possibilite de faire certifier sa formation au travers d’un titre professionnel inscrit au RNCP (Développeur logiciel, niveau III)</li>
+		</ul>
+  </article>
+
+  <article id="PHP" class="Module-Tableau-container Module-Tableau-border city" style="display:none">
+	<h2></h2>
+	<ul>
+		<li class="hauteur"><span class="rose">des competences et des technologies</span><br>Vous ferez un mélange de développement <span class="gris">« front-end »</span> (ce qu’on voit à l’écran, avec HTML, CSS, Javascript), le développement<span class="gris"> « back-end »</span> (les coulisses, les fonctionnalités)<span class="gris"> avec le langage</span><span class="rose">  PHP </span>, l’administration systèmes (sous Linux), la programmation d’objets connectés, la gestion de projet et la conception d’interfaces.</li>
+		<li class="hauteur"><span class="rose">des methodes</span><br>Méthodologies agiles, pair programming, etc...</li>
+		<li class="hauteur"><span class="rose">des outils</span><br>Git, Github, Slack, Sublime text, etc...</li>
+		<li class="hauteur"><span class="rose">des ouvertures sur d’autres domaines</span><br>Sécurité, environnement, intelligence artificielle, consommation collaborative, entrepreneuriat, communication, marketing,… Autant de sujets qui pourront donner lieu à des interventions, sur votre demande notamment.</li>
+		<li class="hauteur"><span class="rose">à partir de novembre 2015</span><br>Possibilité de faire certifier sa formation au travers d’un titre professionnel inscrit au RNCP (Développeur logiciel, niveau III)</li>
+	</ul>
+  </article>
+
+  <article id="Rubis" class="Module-Tableau-container Module-Tableau-border city" style="display:none">
+    <h2></h2>
+	<ul>
+		<li class="hauteur"><span class="rose">des competences et des technologies</span><br>Vous ferez un mélange de développement <span class="gris"> « front-end » </span> (ce qu’on voit à l’écran, avec HTML, CSS, Javascript), le développement <span class="gris"> « back-end » </span> (les coulisses, les fonctionnalités) <span class="gris"> avec le langage </span> <span class="rose"> Ruby </span>, l’administration systèmes (sous Linux), la programmation d’objets connectés, la gestion de projet et la conception d’interfaces.</li>
+		<li class="hauteur"><span class="rose">des methodes</span><br>Méthodologies agiles, pair programming, etc...</li>
+		<li class="hauteur"><span class="rose">des outils</span><br>Git, Github, Slack, Sublime text, etc...</li>
+		<li class="hauteur"><span class="rose">des ouvertures sur d’autres domaines</span><br>Sécurité, environnement, intelligence artificielle, consommation collaborative, entrepreneuriat, communication, marketing,… Autant de sujets qui pourront donner lieu à des interventions, sur votre demande notamment.</li>
+		<li class="hauteur"><span class="rose">à partir de novembre 2015</span><br>Possibilité de faire certifier sa formation au travers d’un titre professionnel inscrit au RNCP (Développeur logiciel, niveau III)</li>
+	</ul>
+  </article>
+  
+  <article id="Python" class="Module-Tableau-container Module-Tableau-border city" style="display:none">
+	<h2></h2>
+	<ul>
+		<li class="hauteur"><span class="rose">des methodes</span><br>Méthodologies agiles, pair programming, etc.</li>
+		<li class="hauteur"><span class="rose">des outils</span><br>Git, Github, Slack, Sublime text, etc.</li>
+		<li class="hauteur"><span class="rose">des ouvertures sur d’autres domaines</span><br>Sécurité, environnement, intelligence artificielle, consommation collaborative, entrepreneuriat, communication, marketing,… Autant de sujets qui pourront donner lieu à des interventions, sur votre demande notamment.</li>
+		<li class="hauteur"><span class="rose">à partir de novembre 2015</span><br>Possibilité de faire certifier sa formation au travers d’un titre professionnel inscrit au RNCP (Développeur logiciel, niveau III)</li>
+	</ul>
+  </article>
+ 
+</section>
+
+<script>
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" Module-Tableau-activ", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " Module-Tableau-activ";
+}
+</script>
+
+</div>

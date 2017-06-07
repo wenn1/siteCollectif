@@ -1,0 +1,41 @@
+.Module-Tableau-container{
+	margin-left: 1em;
+	margin-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+
+.Module-Tableau-green{
+	background-color:rgba(116,134,22,0.8);
+
+}
+
+.Module-Tableau-bar{
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.Module-Tableau-bar-item {
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif !important;
+	color: #333;
+}
+
+.Module-Tableau-button{
+	border: none;
+	background-color:rgba(116,134,22,0.0);
+	padding:1em;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Module-Tableau-border{
+	border: 1px solid rgba(51,51,51,.3);
+}
+
+.Module-Tableau-activ{
+	background-color:rgba(116,134,22,1);
+	color: rgb(51,51,51);
+	outline:none;
+}
