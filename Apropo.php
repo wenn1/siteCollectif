@@ -2,14 +2,14 @@
 <html lang="fr">
 <head>
 	<?php include('include/inc_head.php') ?>
-	<meta name="description" content="titre de la page"/>
+	<meta name="description" content="A propos"/>
 	<title>A propos</title>
 </head>
 
 <body role="document">
 	<div class="content">
 	  <header class="header" role="banner">
-			  <?php include('include/inc_header.php') ?>
+	  <?php include('include/inc_header.php') ?>
 	  </header>
 
 	    <nav class="menu" role="navigation">
@@ -28,7 +28,7 @@
 				  <p><a href="galerie/photo_individuel/Mylene.jpg" class="photo_apropo3" data-title="Mylene" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Mylenex150.jpg" alt="Mehdi" /></a></p>
 				  <p><a href="galerie/photo_individuel/Nima.jpg" class="photo_apropo4"data-title="Nima" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Nimax150.jpg" alt="Nima" /></a></p>
 				  <p><a href="galerie/photo_individuel/Nolwenn.jpg" class="photo_apropo5" data-title="Nolwenn" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/nolwennx150.jpg" alt="Norlwenn" /></a></p>
-				  <p>Ce projet a été realisé en 2 semaines dans le cadre de la réalisation d'un site web par groupe de 5 personnes. Nous avons fait usage de la méthode agile pour coordonner le travail.</p>
+				  <p>Ce projet a été realisé en 2 semaines. Nous avons fait usage de la méthode agile pour coordonner le travail.</p>
 			  </article>
 		  </section>
 		</main>
