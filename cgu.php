@@ -2,14 +2,14 @@
 <html lang="fr">
 <head>
 	<?php include('include/inc_head.php') ?>
-	<meta name="description" content="titre de la page"/>
+	<meta name="description" content="Mentions légales"/>
 	<title>Conditions générales d'utilisation</title>
 </head>
 
 <body role="document">
 	<div class="content">
 		<header class="header" role="banner">
-				<?php include('include/inc_header.php') ?>
+		<?php include('include/inc_header.php') ?>
 		</header>
 
 		<nav class="menu" role="navigation">
